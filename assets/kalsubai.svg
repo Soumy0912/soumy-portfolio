@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradK" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141416"/>
+      <stop offset="50%" stop-color="#0a0a0c"/>
+      <stop offset="100%" stop-color="#18181c"/>
+    </linearGradient>
+    <pattern id="gridK" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGradK)"/>
+  <rect width="800" height="600" fill="url(#gridK)"/>
+  <rect x="16" y="16" width="768" height="568" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1" rx="12"/>
+  
+  <!-- Mountain Silhouette Icon -->
+  <g transform="translate(400, 240)">
+    <circle cx="0" cy="0" r="46" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+    <!-- Peak outline -->
+    <path d="M -24 16 L -6 -16 L 8 4 L 14 -4 L 24 16 Z" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="16" cy="-14" r="4" fill="rgba(255,255,255,0.8)"/>
+  </g>
+  
+  <text x="400" y="340" text-anchor="middle" font-family="'Space Grotesk', system-ui, sans-serif" font-size="20" font-weight="700" fill="#ffffff" letter-spacing="2">KALSUBAI SUMMIT (1,646M)</text>
+  <text x="400" y="375" text-anchor="middle" font-family="'Space Grotesk', system-ui, sans-serif" font-size="14" fill="rgba(255,255,255,0.5)" letter-spacing="1">Everest of Maharashtra · Night trek &amp; sunrise peak</text>
+  <text x="400" y="415" text-anchor="middle" font-family="monospace" font-size="12" fill="rgba(255,255,255,0.3)">Click or drop image to upload</text>
+</svg>

@@ -1,0 +1,12 @@
+{
+  "name": "soumy-portfolio",
+  "version": "1.0.0",
+  "description": "Personal developer portfolio of Soumy Raghuvanshi, inspired by the editorial design language of dadashi44.vercel.app",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": ["portfolio", "developer", "fullstack", "editorial"],
+  "author": "Soumy Raghuvanshi",
+  "license": "MIT"
+}
